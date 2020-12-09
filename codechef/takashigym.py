@@ -1,0 +1,9 @@
+x,y,a,b=map(int,input().split())
+s=0
+while(a*x<y):
+    s+=1
+    x*=a
+while(b+x<y):
+    s+=2
+    x+=b
+print(s)
